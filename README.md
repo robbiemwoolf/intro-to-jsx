@@ -20,7 +20,7 @@
 <li>A main element which wraps the above paragraph and link.</li>
 </ul>
 <p><em><strong>Note:</strong> Use the variables <code>shirts</code>, <code>pants</code>, and <code>website</code> rather than hardcoding the values yourself.</em></p>
-<p>When rendering the application, you should see the text below.</p>
+<p>When you render the application, you should see the text below:</p>
 <blockquote>
 <p>Purchased 4 shirts and 6 pants for a total of 10 items<br>
 <a href="https://www.thinkful.com/" target="_blank" rel="noopener">Website</a></p>
