@@ -8,13 +8,12 @@ const website = "https://www.thinkful.com/";
 const element = null;
 
 function App(){
-    const element = (
-    <div>
-    <p>Purchased {shirts} shirts and {pants} pants for a total of {shirts * pants}</p>
-    <a href={website}>Website</a>
-    </div>
-    )
-    return element;
-};
+  return (
+    <main>
+       <p className="paragraph">Purchased {shirts} shirts and {pants} pants for a total of {shirts + pants} items</p>
+       <a href={website}>Website</a>
+     </main>
+    );
+}
 
 export default App;
